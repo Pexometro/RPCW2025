@@ -21,8 +21,8 @@ select (COUNT(DISTINCT ?object) AS ?objectProperties ) where{
 
 
 ## 3. Quantos indivíduos existem na Ontologia?
-```sparql
 
+```sparql
 SELECT (COUNT(DISTINCT ?ind) AS ?numIndividuos)
 WHERE {
   ?ind a ?type .

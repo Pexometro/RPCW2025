@@ -156,14 +156,12 @@
 
 :Dimorphic_hemmorhoidspiles a :Disease,
         owl:NamedIndividual ;
+    :description "Hemorrhoids, also spelled haemorrhoids, are vascular structures in the anal canal. In their ... Other names, Haemorrhoids, piles, hemorrhoidal disease ."^^xsd:string ;
     :hasSymptom :bloody_stool,
         :constipation,
         :irritation_in_anus,
         :pain_during_bowel_movements,
         :pain_in_anal_region .
-
-:Dimorphic_hemorrhoidspiles a :Disease ;
-    :description "Hemorrhoids, also spelled haemorrhoids, are vascular structures in the anal canal. In their ... Other names, Haemorrhoids, piles, hemorrhoidal disease ."^^xsd:string .
 
 :Drug_Reaction a :Disease,
         owl:NamedIndividual ;
