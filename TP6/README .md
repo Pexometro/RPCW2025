@@ -1,30 +1,15 @@
 # TPC5
 
-## Metadata
-
-| Title |    Date    | AuthorId |  AuthorName  | UcSigla |                        UcNome                        |
-| :---: | :--------: | :------: | :----------: | :-----: | :--------------------------------------------------: |
-| TPC5  | 18-03-2025 | PG55920  | Afonso Silva |  RPCW   | Representação e Processamento de Conhecimento na Web |
-
-## Resumo
-
-- Povoar a ontologia `cinema-base.ttl` desenvolvida na aula TP6 com 500 filmes.
+## Autor : Pedro Azevedo
+## Número : PG57897
 
 ## Run
 
 ### Fazer download dos datasets
 
-> [!NOTE]
-> Este processo pode demorar algum tempo e os ficheiros ocupam bastante espaço.
-
 ```sh
 ./get_imdb_movie_files
 ```
-
-> [!WARNING]
-> Este script foi escrito em Bash (a shell superior).
-> O interpretador tem de estar disponível em `/bin/bash`,
-> pois o script pode não funcionar corretamente com outros shells.
 
 ### Concatenar a informação
 
@@ -34,22 +19,13 @@
 python3 concatenate_data.py
 ```
 
-> [!NOTE]
-> Isto pode também demorar algum tempo a executar.
-> Pode demorar menos ao passar o argumento `low_memory=False` à função `read_csv`.
-> Isto irá consumir bastante memória e não foi possível executar no meu caso.
-
-### Criar um novo ficheiro Turtle
+### Criar um novo ficheiro ttl
 
 Para verificar como ficaria a ontologia populada corra o comando:
 
 ```sh
 python3 populate.py
 ```
-
-> [!NOTE]
-> Isto irá apenas imprimir o resultado para o stdout.
-> Para a guardar redirecione o output para um ficheiro.
 
 ```sh
 python3 populate.py > cinema.ttl

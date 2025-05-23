@@ -15,6 +15,7 @@ g.parse("medical.ttl", format="turtle")
 # --------------------------------------------------------------------
 # Processar ficheiro CSV com reader
 # --------------------------------------------------------------------
+
 ficheiro = "Disease_Syntoms.csv"
 doencas = []
 sintomas = []
