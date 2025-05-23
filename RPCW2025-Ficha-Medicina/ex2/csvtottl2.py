@@ -31,7 +31,7 @@ with open(ficheiro, newline='', encoding='utf-8') as f:
     header = next(reader)  
     
     for linha in reader:
-        disease_name = linha[0].strip().replace(" ", "_")
+        disease_name = linha[0].strip().replace(" ", "_").replace("(","").replace(")","")
         disease_uri = URIRef(f"{n}{disease_name}")
         description_text = linha[1].strip()
 

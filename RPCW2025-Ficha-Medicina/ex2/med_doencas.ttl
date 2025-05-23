@@ -4,35 +4,23 @@
 
 <http://www.example.org/disease-ontology> a owl:Ontology .
 
-<http://www.example.org/disease-ontology#(vertigo)_Paroymsal__Positional_Vertigo> a :Disease ;
-    :hasSymptom :,
-        :headache,
-        :loss_of_balance,
-        :nausea,
-        :spinning_movements,
-        :unsteadiness,
-        :vomiting .
-
 :AIDS a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :extra_marital_contacts,
+    :hasSymptom :extra_marital_contacts,
         :high_fever,
         :muscle_wasting,
         :patches_in_throat .
 
 :Acne a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :blackheads,
+    :hasSymptom :blackheads,
         :pus_filled_pimples,
         :scurring,
         :skin_rash .
 
 :Alcoholic_hepatitis a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :abdominal_pain,
+    :hasSymptom :abdominal_pain,
         :distention_of_abdomen,
         :fluid_overload,
         :history_of_alcohol_consumption,
@@ -42,16 +30,14 @@
 
 :Allergy a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :chills,
+    :hasSymptom :chills,
         :continuous_sneezing,
         :shivering,
         :watering_from_eyes .
 
 :Arthritis a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :movement_stiffness,
+    :hasSymptom :movement_stiffness,
         :muscle_weakness,
         :musclevertig_weakness,
         :painful_walking,
@@ -60,8 +46,7 @@
 
 :Bronchial_Asthma a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :breathlessness,
+    :hasSymptom :breathlessness,
         :cough,
         :family_history,
         :fatigue,
@@ -70,8 +55,7 @@
 
 :Cervical_spondylosis a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :back_pain,
+    :hasSymptom :back_pain,
         :dizziness,
         :loss_of_balance,
         :neck_pain,
@@ -79,8 +63,7 @@
 
 :Chicken_pox a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :fatigue,
+    :hasSymptom :fatigue,
         :headache,
         :high_fever,
         :itching,
@@ -94,8 +77,7 @@
 
 :Chronic_cholestasis a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :abdominal_pain,
+    :hasSymptom :abdominal_pain,
         :itching,
         :loss_of_appetite,
         :nausea,
@@ -105,8 +87,7 @@
 
 :Common_Cold a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :chest_pain,
+    :hasSymptom :chest_pain,
         :chills,
         :congestion,
         :continuous_sneezing,
@@ -126,8 +107,7 @@
 
 :Dengue a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :back_pain,
+    :hasSymptom :back_pain,
         :chills,
         :fatigue,
         :headache,
@@ -144,8 +124,7 @@
 
 :Diabetes a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :Fatigue,
+    :hasSymptom :Fatigue,
         :FrequentUrination,
         :IncreasedThirst,
         :blurred_and_distorted_vision,
@@ -162,14 +141,6 @@
         :Exercise,
         :InsulinTherapy .
 
-:Dimorphic_hemmorhoids\(piles\) a :Disease ;
-    :hasSymptom :,
-        :bloody_stool,
-        :constipation,
-        :irritation_in_anus,
-        :pain_during_bowel_movements,
-        :pain_in_anal_region .
-
 :Dimorphic_hemmorhoidspiles a :Disease,
         owl:NamedIndividual ;
     :hasSymptom :bloody_stool,
@@ -180,8 +151,7 @@
 
 :Drug_Reaction a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :burning_micturition,
+    :hasSymptom :burning_micturition,
         :itching,
         :skin_rash,
         :spotting__urination,
@@ -198,16 +168,14 @@
 
 :Fungal_infection a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :dischromic__patches,
+    :hasSymptom :dischromic__patches,
         :itching,
         :nodal_skin_eruptions,
         :skin_rash .
 
 :GERD a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :acidity,
+    :hasSymptom :acidity,
         :chest_pain,
         :cough,
         :stomach_pain,
@@ -216,24 +184,21 @@
 
 :Gastroenteritis a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :dehydration,
+    :hasSymptom :dehydration,
         :diarrhoea,
         :sunken_eyes,
         :vomiting .
 
 :Heart_attack a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :breathlessness,
+    :hasSymptom :breathlessness,
         :chest_pain,
         :sweating,
         :vomiting .
 
 :Hepatitis_B a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :abdominal_pain,
+    :hasSymptom :abdominal_pain,
         :dark_urine,
         :fatigue,
         :itching,
@@ -248,8 +213,7 @@
 
 :Hepatitis_C a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :family_history,
+    :hasSymptom :family_history,
         :fatigue,
         :loss_of_appetite,
         :nausea,
@@ -258,8 +222,7 @@
 
 :Hepatitis_D a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :abdominal_pain,
+    :hasSymptom :abdominal_pain,
         :dark_urine,
         :fatigue,
         :joint_pain,
@@ -271,8 +234,7 @@
 
 :Hepatitis_E a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :abdominal_pain,
+    :hasSymptom :abdominal_pain,
         :acute_liver_failure,
         :coma,
         :dark_urine,
@@ -288,8 +250,7 @@
 
 :Hypertension a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :chest_pain,
+    :hasSymptom :chest_pain,
         :dizziness,
         :headache,
         :lack_of_concentration,
@@ -297,8 +258,7 @@
 
 :Hyperthyroidism a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :abnormal_menstruation,
+    :hasSymptom :abnormal_menstruation,
         :diarrhoea,
         :excessive_hunger,
         :fast_heart_rate,
@@ -312,8 +272,7 @@
 
 :Hypoglycemia a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :anxiety,
+    :hasSymptom :anxiety,
         :blurred_and_distorted_vision,
         :drying_and_tingling_lips,
         :excessive_hunger,
@@ -328,8 +287,7 @@
 
 :Hypothyroidism a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :abnormal_menstruation,
+    :hasSymptom :abnormal_menstruation,
         :brittle_nails,
         :cold_hands_and_feets,
         :depression,
@@ -345,8 +303,7 @@
 
 :Impetigo a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :blister,
+    :hasSymptom :blister,
         :high_fever,
         :red_sore_around_nose,
         :skin_rash,
@@ -354,8 +311,7 @@
 
 :Jaundice a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :abdominal_pain,
+    :hasSymptom :abdominal_pain,
         :dark_urine,
         :fatigue,
         :high_fever,
@@ -366,8 +322,7 @@
 
 :Malaria a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :chills,
+    :hasSymptom :chills,
         :diarrhoea,
         :headache,
         :high_fever,
@@ -378,8 +333,7 @@
 
 :Migraine a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :acidity,
+    :hasSymptom :acidity,
         :blurred_and_distorted_vision,
         :depression,
         :excessive_hunger,
@@ -391,20 +345,12 @@
 
 :Osteoarthristis a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :hip_joint_pain,
+    :hasSymptom :hip_joint_pain,
         :joint_pain,
         :knee_pain,
         :neck_pain,
         :painful_walking,
         :swelling_joints .
-
-:Paralysis_\(brain_hemorrhage\) a :Disease ;
-    :hasSymptom :,
-        :altered_sensorium,
-        :headache,
-        :vomiting,
-        :weakness_of_one_body_side .
 
 :Paralysis_brain_hemorrhage a :Disease,
         owl:NamedIndividual ;
@@ -429,8 +375,7 @@
 
 :Peptic_ulcer_diseae a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :abdominal_pain,
+    :hasSymptom :abdominal_pain,
         :indigestion,
         :internal_itching,
         :loss_of_appetite,
@@ -439,8 +384,7 @@
 
 :Pneumonia a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :breathlessness,
+    :hasSymptom :breathlessness,
         :chest_pain,
         :chills,
         :cough,
@@ -454,8 +398,7 @@
 
 :Psoriasis a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :inflammatory_nails,
+    :hasSymptom :inflammatory_nails,
         :joint_pain,
         :silver_like_dusting,
         :skin_peeling,
@@ -464,8 +407,7 @@
 
 :Tuberculosis a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :blood_in_sputum,
+    :hasSymptom :blood_in_sputum,
         :breathlessness,
         :chest_pain,
         :chills,
@@ -484,8 +426,7 @@
 
 :Typhoid a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :abdominal_pain,
+    :hasSymptom :abdominal_pain,
         :belly_pain,
         :chills,
         :constipation,
@@ -500,16 +441,14 @@
 
 :Urinary_tract_infection a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :bladder_discomfort,
+    :hasSymptom :bladder_discomfort,
         :burning_micturition,
         :continuous_feel_of_urine,
         :foul_smell_of_urine .
 
 :Varicose_veins a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :bruising,
+    :hasSymptom :bruising,
         :cramps,
         :fatigue,
         :obesity,
@@ -535,8 +474,7 @@
 
 :hepatitis_A a :Disease,
         owl:NamedIndividual ;
-    :hasSymptom :,
-        :abdominal_pain,
+    :hasSymptom :abdominal_pain,
         :dark_urine,
         :diarrhoea,
         :joint_pain,
@@ -584,6 +522,9 @@
 :acute_liver_failure a :Symptom,
         owl:NamedIndividual .
 
+:altered_sensorium a :Symptom,
+        owl:NamedIndividual .
+
 :anxiety a :Symptom,
         owl:NamedIndividual .
 
@@ -600,6 +541,9 @@
         owl:NamedIndividual .
 
 :blood_in_sputum a :Symptom,
+        owl:NamedIndividual .
+
+:bloody_stool a :Symptom,
         owl:NamedIndividual .
 
 :brittle_nails a :Symptom,
@@ -665,6 +609,9 @@
 :irregular_sugar_level a :Symptom,
         owl:NamedIndividual .
 
+:irritation_in_anus a :Symptom,
+        owl:NamedIndividual .
+
 :knee_pain a :Symptom,
         owl:NamedIndividual .
 
@@ -689,6 +636,12 @@
         owl:NamedIndividual .
 
 :pain_behind_the_eyes a :Symptom,
+        owl:NamedIndividual .
+
+:pain_during_bowel_movements a :Symptom,
+        owl:NamedIndividual .
+
+:pain_in_anal_region a :Symptom,
         owl:NamedIndividual .
 
 :palpitations a :Symptom,
@@ -751,6 +704,9 @@
 :small_dents_in_nails a :Symptom,
         owl:NamedIndividual .
 
+:spinning_movements a :Symptom,
+        owl:NamedIndividual .
+
 :spotting__urination a :Symptom,
         owl:NamedIndividual .
 
@@ -783,6 +739,9 @@
 :ulcers_on_tongue a :Symptom,
         owl:NamedIndividual .
 
+:unsteadiness a :Symptom,
+        owl:NamedIndividual .
+
 :visual_disturbances a :Symptom,
         owl:NamedIndividual .
 
@@ -790,6 +749,9 @@
         owl:NamedIndividual .
 
 :weakness_in_limbs a :Symptom,
+        owl:NamedIndividual .
+
+:weakness_of_one_body_side a :Symptom,
         owl:NamedIndividual .
 
 :weight_gain a :Symptom,
@@ -825,16 +787,13 @@
 :acidity a :Symptom,
         owl:NamedIndividual .
 
-:altered_sensorium a :Symptom,
-        owl:NamedIndividual .
-
 :back_pain a :Symptom,
         owl:NamedIndividual .
 
-:bloody_stool a :Symptom,
+:burning_micturition a :Symptom,
         owl:NamedIndividual .
 
-:burning_micturition a :Symptom,
+:constipation a :Symptom,
         owl:NamedIndividual .
 
 :continuous_sneezing a :Symptom,
@@ -852,9 +811,6 @@
 :indigestion a :Symptom,
         owl:NamedIndividual .
 
-:irritation_in_anus a :Symptom,
-        owl:NamedIndividual .
-
 :mood_swings a :Symptom,
         owl:NamedIndividual .
 
@@ -867,12 +823,6 @@
 :obesity a :Symptom,
         owl:NamedIndividual .
 
-:pain_during_bowel_movements a :Symptom,
-        owl:NamedIndividual .
-
-:pain_in_anal_region a :Symptom,
-        owl:NamedIndividual .
-
 :painful_walking a :Symptom,
         owl:NamedIndividual .
 
@@ -880,9 +830,6 @@
         owl:NamedIndividual .
 
 :restlessness a :Symptom,
-        owl:NamedIndividual .
-
-:spinning_movements a :Symptom,
         owl:NamedIndividual .
 
 :stiff_neck a :Symptom,
@@ -894,19 +841,13 @@
 :swelling_joints a :Symptom,
         owl:NamedIndividual .
 
-:unsteadiness a :Symptom,
-        owl:NamedIndividual .
-
-:weakness_of_one_body_side a :Symptom,
-        owl:NamedIndividual .
-
 :blurred_and_distorted_vision a :Symptom,
         owl:NamedIndividual .
 
-:constipation a :Symptom,
+:dizziness a :Symptom,
         owl:NamedIndividual .
 
-:dizziness a :Symptom,
+:loss_of_balance a :Symptom,
         owl:NamedIndividual .
 
 :mild_fever a :Symptom,
@@ -928,9 +869,6 @@
         owl:NamedIndividual .
 
 :lethargy a :Symptom,
-        owl:NamedIndividual .
-
-:loss_of_balance a :Symptom,
         owl:NamedIndividual .
 
 :muscle_pain a :Symptom,
@@ -982,13 +920,13 @@
 :abdominal_pain a :Symptom,
         owl:NamedIndividual .
 
+:headache a :Symptom,
+        owl:NamedIndividual .
+
 :loss_of_appetite a :Symptom,
         owl:NamedIndividual .
 
 :nausea a :Symptom,
-        owl:NamedIndividual .
-
-:headache a :Symptom,
         owl:NamedIndividual .
 
 :high_fever a :Symptom,
@@ -999,8 +937,6 @@
 
 :vomiting a :Symptom,
         owl:NamedIndividual .
-
-: a :Symptom .
 
 :Disease a owl:Class .
 

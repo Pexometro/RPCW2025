@@ -25,7 +25,7 @@ with open(ficheiro, newline='', encoding='utf-8') as f:
     header = next(reader)  
     
     for linha in reader:
-        nome_doenca = linha[0].strip().replace(" ", "_")
+        nome_doenca = linha[0].strip().replace(" ", "_").replace("(","").replace(")","")
         doenca_uri = URIRef(f"{n}{nome_doenca}")
 
         if nome_doenca not in doencas:
@@ -34,7 +34,7 @@ with open(ficheiro, newline='', encoding='utf-8') as f:
 
         # Processar colunas de tratamentos (colunas 1 em diante)
         for tratamento in linha[1:]:
-            nome_tratamento = tratamento.strip().replace(" ", "_")
+            nome_tratamento = tratamento.strip().replace(" ", "_").replace("(","").replace(")","")
             tratamento_uri = URIRef(f"{n}{nome_tratamento}")
             if nome_tratamento not in tratamentos:
                 g.add((tratamento_uri, RDF.type, n.Treatment))
