@@ -1,5 +1,6 @@
 
 ## 1. Quantas classes estão definidas na Ontologia?
+
 ```sparql
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX : <http://www.semanticweb.org/pexo/ontologies/2025/ficha_afericao/>
@@ -9,8 +10,8 @@ select (COUNT(DISTINCT ?class) AS ?numclass ) where{
 }
 ```
 ## 2. Quantas Object Properties estão definidas na Ontologia?
-```sparql
 
+```sparql
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX : <http://www.semanticweb.org/pexo/ontologies/2025/ficha_afericao/>
 
@@ -18,7 +19,6 @@ select (COUNT(DISTINCT ?object) AS ?objectProperties ) where{
     ?object a owl:ObjectProperty .
 }
 ```
-
 
 ## 3. Quantos indivíduos existem na Ontologia?
 
